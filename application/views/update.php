@@ -10,8 +10,20 @@
     </div>
         <div class="row">
       <div class="input-field col s12">
-        <input type="text" name="gambar" id="gambar">
-        <label for="gambar">Nama File Gambar</label>
+    <title>Multiple Upload</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/bootstrap.css'?>">
+<body>
+<div class="container">
+<label for="gambar">Pilih File Gambar</label>
+    <form action="<?php echo base_url().'blog/update/upload_image'?>" method="post" enctype="multipart/form-data">
+        <?php for ($i=1; $i <=5 ; $i++) :?>
+            <input type="file" name="filefoto<?php echo $i;?>"><br/>
+        <?php endfor;?>
+    </form>
+    <script type="text/javascript" src="<?php echo base_url().'assets/js/bootstrap.js'?>"></script>
+</div>
+</body>
+</html>
       </div>
     </div>
     <div class="row">

@@ -33,6 +33,7 @@
   <h4 class="black-text left-align">Informasi</h4>
   <hr>
         <div class="collection">
+        <a href="<?= site_url('blog/index/sejarah-desa-tangguwisia'); ?>" class="collection-item">Artikel Terpopuler</a>
         <a href="<?= site_url('blog/index/kuliner-desa-tangguwisia'); ?>" class="collection-item">Informasi Kuliner Desa Tangguwisia</a>
         <a href="<?= site_url('blog/index/daftar-tempat-wisata-di-desa-tangguwisia'); ?>" class="collection-item">Informasi Wisata Desa Tangguwisia</a>
         <a href="<?= site_url('blog/index/tentang-desa-tangguwisia'); ?>" class="collection-item">Tentang Desa Tangguwisia</a>
